@@ -3,6 +3,8 @@
 <link rel="stylesheet" href="{{ asset('stisla/assets/modules/datatables/datatables.min.css') }}">
 <link rel="stylesheet" href="{{ asset('stisla/assets/modules/datatables/dataTables.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('stisla/assets/modules/datatables/select.bootstrap4.min.css') }}">
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css"/> -->
 @endsection
 @section('content')
 <div class="section-header">
@@ -31,9 +33,10 @@
 
 @endsection
 @section('scripts')
-<script src="{{ asset('stisla/assets/modules/datatables/datatables.min.js') }}"></script>
+<!-- <script src="{{ asset('stisla/assets/modules/datatables/datatables.min.js') }}"></script>
 <script src="{{ asset('stisla/assets/modules/datatables/dataTables.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('stisla/assets/modules/datatables/dataTables.select.min.js') }}"></script>
+<script src="{{ asset('stisla/assets/modules/datatables/dataTables.select.min.js') }}"></script> -->
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
 <script>
     $(function() {
         $('#datatable').DataTable({
